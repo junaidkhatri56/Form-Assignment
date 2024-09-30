@@ -3,71 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form assignment</title>
+    <title>Form Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<style>
-    .main{
-        width: 30%;
-        margin: 0 auto;
-        border: 1px solid rgb(56, 52, 52);
-        padding: 30px 50px;
-    }
-    .main h1{
-        padding-bottom: 10px;
-        border-bottom: 2px solid black;
-    }
-    button {
-    margin: 25px 0px 0 43%;
-    padding: 10px 20px;
-    background: green;
-    color: white;
-    border: navajowhite;
-    }
-    td.fn {
-        padding-bottom: 25px;
-    }
-    td.st {
-        padding-top: 25px;
-    }
-</style>
 <body>
     <div class="main">
         <h1>Task Assignment Form</h1>
         <table>
-
-
-
             <tr>
                 <td>Employee Name</td>
             </tr>
             <tr>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
+                <td><input type="text" placeholder="First Name"></td>
+                <td><input type="text" placeholder="Last Name"></td>
             </tr>
-            <tr>
-                <td class="fn">First Name</td>
-                <td class="fn">Last Name</td>
-            </tr>
-
-
-
-
             <tr>
                 <td>Manager Name</td>
             </tr>
             <tr>
-                <td><input type="text"></td>
-                <td><input type="text"></td>
+                <td><input type="text" placeholder="First Name"></td>
+                <td><input type="text" placeholder="Last Name"></td>
             </tr>
-            <tr>
-                <td class="fn">First Name</td>
-                <td class="fn">Last Name</td>
-            </tr>
-
-
-
-
-
             <tr>
                 <td>Task</td>
                 <td>Task ID</td>
@@ -76,52 +33,36 @@
                 <td><input type="text"></td>
                 <td><input type="text" placeholder="ex 3"></td>
             </tr>
-
-
-
             <tr>
                 <td class="st" colspan="2">Status</td>
             </tr>
             <tr>
-                <td><input type="radio" name="option">Not Started
-                </td>
+                <td><input type="radio" name="option"> Not Started</td>
             </tr>
             <tr>
-                <td><input type="radio" name="option">In Progress
-                </td>
+                <td><input type="radio" name="option"> In Progress</td>
             </tr>
             <tr>
-                <td><input type="radio" name="option">Done
-                </td>
+                <td><input type="radio" name="option"> Done</td>
             </tr>
             <tr>
-                <td><input type="radio" name="option">Awaiting Feedback
-                </td>
+                <td><input type="radio" name="option"> Awaiting Feedback</td>
             </tr>
-
-
-
             <tr>
                 <td class="st" colspan="2">Additional Notes</td>
             </tr>
             <tr>
-                <td colspan="2"><textarea style="width: 100%; height: 100px;"></textarea></td>
+                <td colspan="2"><textarea style="height: 100px;"></textarea></td>
             </tr>
-
-
-
             <tr>
                 <td class="st" colspan="2">Instructions</td>
             </tr>
             <tr>
-                <td colspan="2"><textarea style="width: 100%; height: 70px;"></textarea></td>
+                <td colspan="2"><textarea style="height: 70px;"></textarea></td>
             </tr>
-
             <tr>
                 <td colspan="2"> <button>Submit</button></td>
             </tr>
-           
-
         </table>
     </div>
 </body>
